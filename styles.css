@@ -1,0 +1,82 @@
+/* General styling */
+body {
+    background-color: #E6F7FF;  /* Light sky blue background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Welcome message styling */
+.welcome-heading {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.welcome-description {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Greeting message styling */
+.greeting-message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Button group styling */
+.button-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.option-button {
+    background-color: #4B79A1;  /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-button:hover {
+    background-color: #3C6A8C;
+}
+
+/* Section styling for forms */
+.section {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hidden class to initially hide sections */
+.hidden {
+    display: none;
+}
+
+.action-button {
+    background-color: #4CAF50;  /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.action-button:hover {
+    background-color: #45a049;
+}

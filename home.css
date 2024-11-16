@@ -1,0 +1,82 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #B3E5FC; /* Solid light blue as a fallback */
+        background: linear-gradient(to bottom, #B3E5FC, #81D4FA); /* Light blue gradient */
+        color: #333;
+        margin: 0;
+        min-height: 100vh;
+    }
+    
+    
+    
+    
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.header-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #FF7043;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-image {
+    display: block;
+    margin: 20px auto 0; /* Space around the image */
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.section {
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    background: #E1F5FE;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section button {
+    background: #29B6F6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section form {
+    margin-top: 20px;
+}
+
+.section label, .section input, .section button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+
